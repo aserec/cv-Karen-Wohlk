@@ -1,84 +1,46 @@
-var technologies = [];
-technologies[0]=[
-    ['HTML5', 80],
-    ['CSS3', 55],
-    ['Java', 85],
-    ['Grails', 75],
-    ['Spring', 65],
-    ['Hibernate', 65],
-    ['PHP', 20],
-    ['MySql/Oracle', 40],
-    ['Cordova', 60],
-    ['Angular', 70],
-    ['Javascript', 85],
-    ['Git', 95],
-    ['Wordpress', 15]
-];
-technologies[1]=[
-    ['HTML5', 80],
-    ['CSS3', 55],
-    ['Java', 85],
-    ['Grails', 75],
-    ['Spring', 65],
-    ['Hibernate', 65],
-    ['PHP', 20],
-    ['MySql/Oracle', 40],
-    ['Cordova', 60],
-    ['Angular', 70],
-    ['Javascript', 85],
-    ['Git', 95],
-    ['Wordpress', 15]
-];
-
 var languages = [];
 languages[0]=[
-    ['Euskera', 100],
-    ['Ingles', 65],
-    ['Catalan', 15],
-    ['Italiano', 30]
+    ['Ingles', 70],
+    ['Catalan', 90]
 ];
 languages[1]=[
-    ['Basque', 100],
     ['Spanish', 100],
-    ['English', 65],
-    ['Catalan', 15],
-    ['Italian', 30]
+    ['English', 70],
+    ['Catalan', 90]
 ];
 var personality = [];
 personality[0]=[
-    ['Dinamismo', 100],
-    ['Alegria', 85],
-    ['Humor', 85],
-    ['Paciencia', 70],
-    ['Silencio', 10],
-    ['Imaginacion', 60],
-    ['Respeto', 95],
-    ['Trabajo en equipo', 70],
-    ['Sumision', 20]
+    ['Responsabilidad', 98],
+    ['Proactiva', 70],
+    ['Ruido', 10],
+    ['Trabajo en equipo', 50],
+    ['Sumisión', 90],
+    ['Paciencia', 80],
+    ['Eufória', 20],
+    ['Seriedad', 90],
+    ['No puedo parar', 80]
 ];
 personality[1]=[
-    ['Dynamism', 100],
-    ['Happyness', 85],
-    ['Houmor', 85],
-    ['Patience', 70],
-    ['Silence', 10],
-    ['Imagination', 60],
-    ['Respect', 95],
-    ['Teamwork', 85],
-    ['Summision', 20]
+    ['Responsability', 98],
+    ['Proactive', 70],
+    ['Noise', 10],
+    ['Teamwork', 50],
+    ['Sumission', 90],
+    ['Patience', 80],
+    ['Euphoria', 20],
+    ['Seriousness', 90],
+    ['Cannot stop', 80]
 ];
 var trasnsversals = [];
 trasnsversals[0]=[
-    ['Agile', 60],
-    ['Tareas administrativas', 20],
+    ['Tareas administrativas', 80],
     ['Formacion continua', 100],
-    ['Disponibilidad movimiento/traslado', 100],
-    ['Trato con cliente', 70]
+    ['Disponibilidad movimiento/traslado', 30],
+    ['Trato con cliente', 90]
 ];
 trasnsversals[1]=[
-    ['Agile', 60],
-    ['Administrative tasks', 20],
+    ['Administrative tasks', 80],
     ['Continuous formation', 100],
-    ['Moving disposition', 100],
-    ['Client management', 70]
+    ['Moving disposition', 30],
+    ['Client management', 90]
 ];

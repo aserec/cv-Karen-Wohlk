@@ -13,20 +13,12 @@
 
     $('.page-scroll a').bind('click', function (event) {
         event.preventDefault();
-        if (doneContest) {
-            slowScroll($(this).attr('href'), event);
-        } else {
-            askForContest($(this), event);
-        }
+        slowScroll($(this).attr('href'), event);
     });
 
     $('#profile').bind('click', function (event) {
         event.preventDefault();
-        if (doneContest) {
-            slowScroll('#work', event);
-        } else {
-            askForContest($(this), event);
-        }
+        slowScroll('#work', event);
     });
 
     $('body').scrollspy({
